@@ -1,0 +1,20 @@
+spring:
+  mail:
+    port: 25
+    #发信邮箱账号
+    username: xxx@163.com
+    #发信邮箱密码
+    password: xxx
+    protocol: smtp
+    default-encoding: utf-8
+    host: smtp.163.com
+my:
+  # 追的号码
+  number: 01,02,13,14,25,31,09
+  # 收信邮箱
+  email: XXX@qq.com
+  apiUrl: http://apicloud.mob.com/lottery/query
+  # http://www.mob.com/ 去这个网站注册个账号创建个app 就有key了
+  key:
+server:
+  port: 9904
